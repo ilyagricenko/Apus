@@ -11,4 +11,10 @@ public class BookController {
 
         return "home";
     }
+
+    @GetMapping("/book_add")
+    public String addBook() {
+
+        return "book_add";
+    }
 }
